@@ -1,0 +1,20 @@
+{
+    "name": "nayazkaya/cs",
+    "description": "Gestion des variables d'environnement et singleton PDO multi-base",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arnaud Didierjean",
+            "email": "basura@didierjean.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nayazkaya\\Cs\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
